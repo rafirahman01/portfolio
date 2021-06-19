@@ -1,0 +1,83 @@
+.container{
+    width: 1100px;
+    margin: auto;
+    background: url('./images/header-bg.png');
+    background-position: left;
+    overflow: hidden;
+}
+.header-left{
+    float: left;
+    margin-top: 50px;
+}
+.header-left h1{
+    color: #EC4C7A;
+    font-size: 50px;
+}
+.general-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #EC4C7A;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+}
+.header-right-img img{
+    width: 500px;
+    height:400px ;
+    float:right;   
+}
+
+/* about part */
+.wrapper{
+    width: 1100px;
+    overflow: hidden;
+    margin: auto;
+    padding: 100px 0;
+    background: url('./images/biography-bg.png');
+    background-position: left;
+}
+.about-image img{
+    width: 400px;
+}
+.about-image {
+    float: left;
+}
+.about-right{
+    width: 400px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 100px;
+}
+.service{
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+.service h2{
+    text-align: center;
+}
+.service li{
+    list-style: none;
+    float: left;
+}
+.service li img{
+    width: 300px;
+    margin-right: 40px;
+}
+.footer{
+    text-align: center;
+    margin-top: 50px;
+}
+.qutation{
+    width: 600px;
+    margin: auto;
+}
+.footer-contact{
+    background-color: #EC4C7A;
+    display: inline-block;
+    padding: 0 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
